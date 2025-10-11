@@ -87,8 +87,38 @@ img {
   margin-top: 0;
 }
 
+#card-peru {
+  background-image: url("./assets/peru.png");
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+}
+
+#card-china {
+  background-image: url("./assets/china.png");
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+}
+
+#card-southafrica {
+  background-image: url("./assets/southafrica.png");
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+}
+
+.card p {
+  color: black;
+}
+
 .card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  opacity: 1;
 }
 
 /* --- Github Box --- */
