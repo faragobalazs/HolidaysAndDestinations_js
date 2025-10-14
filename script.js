@@ -1,7 +1,6 @@
 const mainTitle = document.querySelector("#main-title");
 const highlightedText = document.querySelector("#highlight");
 const firstCard = document.querySelector(".card");
-const allCards = document.querySelectorAll(".card");
 const footer = document.querySelector(".footer");
 
 mainTitle.textContent = "World's Most Epic Destinations";
