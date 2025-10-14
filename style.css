@@ -5,6 +5,22 @@ body {
   color: #333;
 }
 
+/* --- Intro Box --- */
+
+#theme-button-container {
+  display: flex;
+  justify-content: right;
+}
+
+#theme-toggle-btn {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(185, 239, 119);
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 /* --- Navigation Bar --- */
 
 nav ul {
@@ -119,6 +135,12 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
   opacity: 1;
+}
+
+#highlight-cards-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 /* --- Github Box --- */
